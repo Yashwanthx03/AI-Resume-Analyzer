@@ -79,7 +79,7 @@ AI-Resume-Analyzer/
 
 ---
 
-# 📸 Project Screenshots
+#  Project Screenshots
 
 ## Upload Resume
 

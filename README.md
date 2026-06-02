@@ -58,15 +58,15 @@ https://ai-resume-analyzer-d3ix.onrender.com/
 
 # Project Structure
 
-```bash
+```bash id="readme1"
 AI-Resume-Analyzer/
 │
 ├── core/
 ├── resume_checker/
+│   └── screenshots/
+│
 ├── templates/
 ├── static/
-├── screenshots/
-│
 ├── manage.py
 ├── requirements.txt
 ├── README.md
@@ -79,19 +79,19 @@ AI-Resume-Analyzer/
 
 ## Upload Resume
 
-![Upload Resume](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/upload.png)
+![Upload Resume](resume_checker/screenshots/upload.png)
 
 ---
 
 ## ATS Analysis Result
 
-![ATS Result](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/result.png)
+![ATS Result](resume_checker/screenshots/result.png)
 
 ---
 
 ## Skill Matching Analysis
 
-![Skill Matching](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/skills.png)
+![Skill Matching](resume_checker/screenshots/skills.png)
 
 ---
 
@@ -99,7 +99,7 @@ AI-Resume-Analyzer/
 
 ## Clone Repository
 
-```bash
+```bash id="readme2"
 git clone https://github.com/Yashwanthx03/AI-Resume-Analyzer.git
 
 cd AI-Resume-Analyzer
@@ -111,7 +111,7 @@ cd AI-Resume-Analyzer
 
 ### Windows
 
-```bash
+```bash id="readme3"
 python -m venv venv
 
 venv\Scripts\activate
@@ -119,7 +119,7 @@ venv\Scripts\activate
 
 ### Mac/Linux
 
-```bash
+```bash id="readme4"
 python3 -m venv venv
 
 source venv/bin/activate
@@ -129,7 +129,7 @@ source venv/bin/activate
 
 ## Install Dependencies
 
-```bash
+```bash id="readme5"
 pip install -r requirements.txt
 ```
 
@@ -137,13 +137,13 @@ pip install -r requirements.txt
 
 ## Run Development Server
 
-```bash
+```bash id="readme6"
 python manage.py runserver
 ```
 
 Application will run at:
 
-```bash
+```bash id="readme7"
 http://127.0.0.1:8000/
 ```
 
@@ -155,13 +155,13 @@ This project is deployed using Render.
 
 ## Build Command
 
-```bash
+```bash id="readme8"
 pip install -r requirements.txt
 ```
 
 ## Start Command
 
-```bash
+```bash id="readme9"
 gunicorn core.wsgi
 ```
 

@@ -83,7 +83,7 @@ AI-Resume-Analyzer/
 
 ## Upload Resume
 
-![Upload Resume](screenshots/upload.png)
+![Upload Resume](resume_checker/screenshots/result copy.png)
 
 ## ATS Analysis Result
 

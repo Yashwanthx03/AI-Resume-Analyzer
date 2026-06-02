@@ -83,15 +83,14 @@ AI-Resume-Analyzer/
 
 ## Upload Resume
 
-![Upload Resume](resume_checker/screenshots/result copy.png)
+![Upload Resume](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/upload.png)
 
 ## ATS Analysis Result
 
-![ATS Result](screenshots/result.png)
+![ATS Result](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/result.png)
 
 ## Skill Matching Analysis
-
-![Skill Matching](screenshots/skills.png)
+![Skill Matching](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/skills.png)
 
 #  Installation Guide
 

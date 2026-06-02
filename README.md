@@ -1,36 +1,32 @@
-#  AI Resume Analyzer
+# AI Resume Analyzer
 
-A modern ATS (Applicant Tracking System) based Resume Analyzer built using Django and Python. This application helps recruiters and hiring teams evaluate resumes efficiently by extracting content from PDF resumes, analyzing skills against job-specific requirements, calculating ATS compatibility scores, and identifying skill gaps.
+AI Resume Analyzer is a modern ATS (Applicant Tracking System) based web application built using Django and Python. The platform helps recruiters and hiring teams evaluate resumes efficiently by extracting content from PDF resumes, analyzing candidate skills against job-specific requirements, calculating ATS compatibility scores, and identifying skill gaps.
 
-The platform provides automated resume screening, role-based skill matching, and an intuitive user interface to simplify the recruitment process.
+The application provides automated resume screening, role-based skill matching, and an intuitive user interface designed to simplify the recruitment process.
 
 ---
 
-#  Live Demo
-
-Add your Render deployment link here.
-
-Example:
+# Live Demo
 
 https://ai-resume-analyzer-d3ix.onrender.com/
 
 ---
 
-#  Features
+# Features
 
-*  Upload PDF Resumes
-*  ATS Score Calculation
-*  Job Role Based Evaluation
-*  Skill Matching Analysis
-*  Missing Skills Detection
-*  PDF Text Extraction
-*  Real-Time Resume Processing
-*  Modern Responsive UI
-*  Cloud Deployment using Render
+* Upload PDF resumes
+* ATS score calculation
+* Job role based evaluation
+* Skill matching analysis
+* Missing skills detection
+* PDF text extraction
+* Real-time resume processing
+* Responsive modern UI
+* Cloud deployment using Render
 
 ---
 
-#  Technologies Used
+# Technologies Used
 
 ## Backend
 
@@ -60,7 +56,7 @@ https://ai-resume-analyzer-d3ix.onrender.com/
 
 ---
 
-#  Project Structure
+# Project Structure
 
 ```bash
 AI-Resume-Analyzer/
@@ -69,7 +65,7 @@ AI-Resume-Analyzer/
 ├── resume_checker/
 ├── templates/
 ├── static/
-│   └── images/
+├── screenshots/
 │
 ├── manage.py
 ├── requirements.txt
@@ -79,20 +75,27 @@ AI-Resume-Analyzer/
 
 ---
 
-#  Project Screenshots
+# Project Screenshots
 
 ## Upload Resume
 
 ![Upload Resume](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/upload.png)
 
+---
+
 ## ATS Analysis Result
 
 ![ATS Result](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/result.png)
 
+---
+
 ## Skill Matching Analysis
+
 ![Skill Matching](https://raw.githubusercontent.com/Yashwanthx03/AI-Resume-Analyzer/main/screenshots/skills.png)
 
-#  Installation Guide
+---
+
+# Installation Guide
 
 ## Clone Repository
 
@@ -146,17 +149,17 @@ http://127.0.0.1:8000/
 
 ---
 
-#  Deployment
+# Deployment
 
 This project is deployed using Render.
 
-### Build Command
+## Build Command
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Start Command
+## Start Command
 
 ```bash
 gunicorn core.wsgi
@@ -164,41 +167,42 @@ gunicorn core.wsgi
 
 ---
 
-#  Challenges Faced
+# Challenges Faced
 
-During development and deployment, the following issues were resolved:
+During development and deployment, the following challenges were resolved successfully:
 
-* Django template configuration errors
+* Django template configuration issues
 * PDF extraction handling
 * ATS score calculation logic
 * GitHub repository setup
 * Render deployment issues
 * Gunicorn configuration
 * DisallowedHost errors
-* Static file configuration
+* Static file management
 
 ---
 
-#  What I Learned
+# What I Learned
 
 Through this project, I learned:
 
-* Django Project Structure
-* File Upload Handling
-* PDF Processing using PDFPlumber
-* ATS Scoring Logic
-* Skill Matching Systems
-* Tailwind CSS UI Development
-* Git & GitHub Workflow
-* Render Deployment
-* Debugging Production Issues
-* Full-Stack Project Development
+* Django project structure
+* File upload handling
+* PDF processing using PDFPlumber
+* ATS scoring logic
+* Skill matching systems
+* Tailwind CSS UI development
+* Git and GitHub workflow
+* Render deployment
+* Debugging production issues
+* Full-stack project development
 
 ---
 
-#  Author
+# Author
 
 ### Yashwanth
 
 GitHub:
 https://github.com/Yashwanthx03
+

@@ -79,25 +79,19 @@ AI-Resume-Analyzer/
 
 ---
 
-#  Project Screenshots
+# 📸 Project Screenshots
 
 ## Upload Resume
 
-![Upload Resume](static/images/upload.png)
-
----
+![Upload Resume](screenshots/upload.png)
 
 ## ATS Analysis Result
 
-![ATS Result](static/images/result.png)
-
----
+![ATS Result](screenshots/result.png)
 
 ## Skill Matching Analysis
 
-![Skill Matching](static/images/skills.png)
-
----
+![Skill Matching](screenshots/skills.png)
 
 #  Installation Guide
 

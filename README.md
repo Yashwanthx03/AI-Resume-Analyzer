@@ -12,7 +12,7 @@ Add your Render deployment link here.
 
 Example:
 
-https://your-app-name.onrender.com
+https://ai-resume-analyzer-d3ix.onrender.com/
 
 ---
 

@@ -13,20 +13,7 @@ JOB_CHOICES = [
 class ResumeForm(forms.Form):
 
     job_role = forms.ChoiceField(
-        choices=JOB_CHOICES,
-
-        widget=forms.Select(
-            attrs={
-                "class": "w-full p-4 rounded-2xl bg-slate-800 border border-slate-700 text-white outline-none"
-            }
-        ),
+        choices=JOB_CHOICES
     )
 
-    resume = forms.FileField(
-
-        widget=forms.ClearableFileInput(
-            attrs={
-                "class": "w-full p-4 rounded-2xl bg-slate-800 border border-slate-700 text-white"
-            }
-        )
-    )
+    resume = forms.FileField()
